@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-size: 30pt;
+  color: #282828;
+}
 /* head */
 .head-container {
   width: 100%;
@@ -41,9 +45,167 @@
 }
 .first-container {
   width: 100%;
-  height: 1086px;
+  height: 1586px;
   background-image: url(/images/vipp632-chimney-sofa-ritz-col1644-lifestyle01_0.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: 50% 50%;
+}
+.first-title {
+  padding: 350px 0 100px 250px;
+  color: #282828;
+}
+.first-title p {
+  font-weight: lighter;
+}
+.first-title h3 {
+  font-size: 60pt;
+}
+.first-title-a {
+  margin-top: 45px;
+}
+.first-title a {
+  text-decoration: none;
+  color: #282828;
+  padding: 25px 150px;
+  border: 2px solid #282828;
+}
+.main-second-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0;
+}
+.second-title {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+.second-title a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 20pt;
+}
+.second-images-container {
+  width: 90%;
+  display: flex;
+}
+.image-container {
+  width: 540px;
+  height: 720px;
+  margin: 2px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.image-title {
+  margin: 25px;
+}
+.image-title h3 {
+  font-size: 10pt;
+  font-weight: lighter;
+}
+.image-title p {
+  font-size: 10pt;
+  color: #a0a0a0;
+}
+.image-footer {
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.image-footer h3 {
+  font-size: 10pt;
+  color: #a0a0a0;
+  font-weight: lighter;
+}
+.image-circle {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.white {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #282828;
+}
+.black {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+.second-image1 {
+  background-color: #f6f6f6;
+  background-image: url(/images/vipp-13-pedal-bin-white-1_1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.second-image2 {
+  background-color: #f6f6f6;
+  background-image: url(/images/vipp-14-pedal-bin-white-1_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.second-image3 {
+  background-color: #f6f6f6;
+  background-image: url(/images/vipp-15-pedal-bin-white-1_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.second-image4 {
+  background-color: #f6f6f6;
+  background-image: url(/images/vipp-16-pedal-bin-white-1_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+/* hover */
+.second-image1:hover {
+  background-image: url(/images/vipp-13-pedal-bin-01-h.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.image-container:hover .image-title,
+.image-footer {
+  opacity: 0;
+}
+.second-image2:hover {
+  background-image: url(/images/vipp-14-pedal-bin-h.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.second-image3:hover {
+  background-image: url(/images/vipp-15-pedal-bin-04-h.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.second-image4:hover {
+  background-image: url(/images/lifestyle-vipp-16-bin-1-rgb_h.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.main-third-container {
+  width: 100%;
+  height: 1126px;
+  background-image: url(/images/vipp-kitchen-2019-ad-living-high-black_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
 }
