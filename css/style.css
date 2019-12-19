@@ -65,10 +65,15 @@ body {
   margin-top: 45px;
 }
 .first-title a {
+  font-size: 15pt;
   text-decoration: none;
   color: #282828;
   padding: 25px 150px;
   border: 2px solid #282828;
+}
+.first-title a:hover {
+  color: #f6f6f6;
+  background-color: #282828;
 }
 .main-second-container {
   width: 100%;
@@ -102,6 +107,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+  background-color: #f6f6f6;
 }
 .image-title {
   margin: 25px;
@@ -145,28 +151,24 @@ body {
   border: 1px solid #282828;
 }
 .second-image1 {
-  background-color: #f6f6f6;
   background-image: url(/images/vipp-13-pedal-bin-white-1_1.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 80%;
 }
 .second-image2 {
-  background-color: #f6f6f6;
   background-image: url(/images/vipp-14-pedal-bin-white-1_0.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 80%;
 }
 .second-image3 {
-  background-color: #f6f6f6;
   background-image: url(/images/vipp-15-pedal-bin-white-1_0.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 80%;
 }
 .second-image4 {
-  background-color: #f6f6f6;
   background-image: url(/images/vipp-16-pedal-bin-white-1_0.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -179,33 +181,372 @@ body {
   background-position: 50% 50%;
   background-size: 100%;
 }
-.image-container:hover .image-title,
-.image-footer {
+.second-image1:hover .image-title {
   opacity: 0;
 }
+.second-image1:hover .image-footer {
+  opacity: 0;
+}
+
 .second-image2:hover {
   background-image: url(/images/vipp-14-pedal-bin-h.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100%;
 }
+.second-image2:hover .image-title {
+  opacity: 0;
+}
+.second-image2:hover .image-footer {
+  opacity: 0;
+}
+
 .second-image3:hover {
   background-image: url(/images/vipp-15-pedal-bin-04-h.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100%;
 }
+.second-image3:hover .image-title {
+  opacity: 0;
+}
+.second-image3:hover .image-footer {
+  opacity: 0;
+}
+
 .second-image4:hover {
   background-image: url(/images/lifestyle-vipp-16-bin-1-rgb_h.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100%;
 }
+.second-image4:hover .image-title {
+  opacity: 0;
+}
+.second-image4:hover .image-footer {
+  opacity: 0;
+}
+
 .main-third-container {
   width: 100%;
-  height: 1126px;
+  height: 1580px;
   background-image: url(/images/vipp-kitchen-2019-ad-living-high-black_0.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.third-title {
+  width: 50%;
+  color: #f6f6f6;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.third-title p {
+  font-size: 10pt;
+}
+.third-title h3 {
+  margin: 50px 0;
+  font-size: 50pt;
+  text-align: center;
+}
+.third-title a {
+  padding: 20px 50px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 10pt;
+  border: 1px solid #f6f6f6;
+}
+.third-title a:hover {
+  color: #282828;
+  background-color: #f6f6f6;
+}
+.main-fourth-container {
+  width: 100%;
+  height: 100%;
+  padding: 250px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-title {
+  width: 90%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.fourth-title h3 {
+  font-weight: 500;
+}
+.fourth-title a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 15pt;
+}
+.fourth-images-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+.fourth-image-container {
+  width: 50%;
+  height: 1500px;
+  margin: 0 1px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+.fourth-images1 {
+  background-image: url(/images/vipp610-loft-sofa-hallingdal-130-pack-web01_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.fourth-images2 {
+  background-image: url(/images/vipp423-coffee-table60-darkoak-01-low.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.gray {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #949391;
+}
+.gray-black {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #555555;
+}
+.image-circle1 {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.gray1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #523b2c;
+}
+.gray2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #282c2c;
+}
+.gray3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #9c907d;
+}
+/* hover */
+.fourth-images1:hover {
+  background-image: url(/images/vipp-610-loft-sofa-lido-trend-pelican-lifestyle02-h.jpg);
+  background-size: cover;
+}
+.fourth-images2:hover {
+  background-image: url(/images/vipp423_coffeetable60_black_marble_lifestyle01-h.jpg);
+  background-size: cover;
+}
+.fourth-images1:hover .image-title {
+  opacity: 0;
+}
+.fourth-images1:hover .image-footer {
+  opacity: 0;
+}
+.fourth-images2:hover .image-title {
+  opacity: 0;
+}
+.fourth-images2:hover .image-footer {
+  opacity: 0;
+}
+.main-fifth-container {
+  width: 100%;
+  height: 1580px;
+  background-image: url(/images/chimney-frontpagepic.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-title {
+  width: 50%;
+  color: #282c2c;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-title p {
+  font-size: 10pt;
+}
+.fifth-title h3 {
+  margin: 50px 0;
+  font-size: 50pt;
+  text-align: center;
+}
+.fifth-title a {
+  padding: 20px 50px;
+  text-decoration: none;
+  color: #282c2c;
+  font-size: 10pt;
+  border: 1px solid #282c2c;
+}
+.fifth-title a:hover {
+  color: #f6f6f6;
+  background-color: #282c2c;
+}
+.main-sixth-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0;
+}
+.sixth-title {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+.sixth-title a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 20pt;
+}
+.sixth-images-container {
+  width: 90%;
+  display: flex;
+}
+.sixth-image1 {
+  background-image: url(/images/vipp-280-dishwashing-brush-1_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.sixth-image2 {
+  background-image: url(/images/vipp-263-salt-pepper-1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.sixth-image3 {
+  background-image: url(/images/vipp-270-breadbox-white-1_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+.sixth-image4 {
+  background-image: url(/images/vipp-268-trivet-3_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+/* hover */
+.sixth-image1:hover {
+  background-image: url(/images/vipp-280-dishwashing-brush-1-0.jpg);
+  background-size: cover;
+}
+.sixth-image2:hover {
+  background-image: url(/images/vipp-263-salt-pepper-high_high.jpg);
+  background-size: cover;
+}
+.sixth-image3:hover {
+  background-image: url(/images/vipp-270-bread-box-black-03-h.jpg);
+  background-size: cover;
+}
+.sixth-image4:hover {
+  background-image: url(/images/vipp-268-trivet-lifestyle-1-h.jpg);
+  background-size: cover;
+}
+.sixth-image1:hover .image-title {
+  opacity: 0;
+}
+.sixth-image1:hover .image-footer {
+  opacity: 0;
+}
+.sixth-image2:hover .image-title {
+  opacity: 0;
+}
+.sixth-image2:hover .image-footer {
+  opacity: 0;
+}
+.sixth-image3:hover .image-title {
+  opacity: 0;
+}
+.sixth-image3:hover .image-footer {
+  opacity: 0;
+}
+.sixth-image4:hover .image-title {
+  opacity: 0;
+}
+.sixth-image4:hover .image-footer {
+  opacity: 0;
+}
+.main-seventh-container {
+  width: 100%;
+  height: 1580px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.seventh-title {
+  width: 50%;
+  height: 1690px;
+  color: #f6f6f6;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.seventh-image1 {
+  background-image: url(/images/vipp-971-972-table-darkoak-02-high_1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.seventh-image2 {
+  background-image: url(/images/lifestyle-wall-lamp-1-high_0.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.seventh-title p {
+  font-size: 10pt;
+}
+.seventh-title h3 {
+  margin: 50px 0;
+  font-size: 50pt;
+  text-align: center;
+}
+.seventh-title a {
+  padding: 20px 50px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 10pt;
+  border: 1px solid #f6f6f6;
+}
+.seventh-title a:hover {
+  color: #282828;
+  background-color: #f6f6f6;
 }
